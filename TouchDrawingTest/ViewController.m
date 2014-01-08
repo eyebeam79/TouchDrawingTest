@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DrawingView.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
+    DrawingView *drawing = [[DrawingView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:drawing];
 }
 
 - (void)didReceiveMemoryWarning

@@ -21,6 +21,7 @@
 		D2982E0A187C28DD004E8886 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2982DEC187C28DD004E8886 /* UIKit.framework */; };
 		D2982E12187C28DD004E8886 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2982E10187C28DD004E8886 /* InfoPlist.strings */; };
 		D2982E14187C28DD004E8886 /* TouchDrawingTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2982E13187C28DD004E8886 /* TouchDrawingTestTests.m */; };
+		D2982E1F187C2A5E004E8886 /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2982E1E187C2A5E004E8886 /* DrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		D2982E0F187C28DD004E8886 /* TouchDrawingTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchDrawingTestTests-Info.plist"; sourceTree = "<group>"; };
 		D2982E11187C28DD004E8886 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D2982E13187C28DD004E8886 /* TouchDrawingTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchDrawingTestTests.m; sourceTree = "<group>"; };
+		D2982E1D187C2A5E004E8886 /* DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
+		D2982E1E187C2A5E004E8886 /* DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		D2982DEE187C28DD004E8886 /* TouchDrawingTest */ = {
 			isa = PBXGroup;
 			children = (
+				D2982E1D187C2A5E004E8886 /* DrawingView.h */,
+				D2982E1E187C2A5E004E8886 /* DrawingView.m */,
 				D2982DF7187C28DD004E8886 /* AppDelegate.h */,
 				D2982DF8187C28DD004E8886 /* AppDelegate.m */,
 				D2982DFA187C28DD004E8886 /* Main.storyboard */,
@@ -252,6 +257,7 @@
 				D2982DFF187C28DD004E8886 /* ViewController.m in Sources */,
 				D2982DF9187C28DD004E8886 /* AppDelegate.m in Sources */,
 				D2982DF5187C28DD004E8886 /* main.m in Sources */,
+				D2982E1F187C2A5E004E8886 /* DrawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
